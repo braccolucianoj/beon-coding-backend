@@ -1,0 +1,6 @@
+{
+  "watch": ["**"],
+  "ext": "ts,js,json",
+  "ignore": ["**/*.test.ts", "services/sequelizeAuto/index.ts"],
+  "exec": "ts-node index.ts"
+}

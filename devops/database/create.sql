@@ -1,0 +1,3 @@
+CREATE ROLE app_user NOSUPERUSER NOCREATEDB NOCREATEROLE LOGIN PASSWORD 'app_user_password'; 
+
+CREATE DATABASE flight_database WITH OWNER app_user;

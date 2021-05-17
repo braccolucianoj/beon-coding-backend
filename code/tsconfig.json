@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2016", "DOM"],
+    "paths": {
+      "*": ["./*"]
+    },
+    "allowJs": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "types": ["node"],
+    "typeRoots": ["/node_modules/@types"]
+  },
+  "include": ["./**/*.ts", "config/**/*.js"],
+  "exclude": ["node_modules", "services/sequelizeAuto/*"]
+}
